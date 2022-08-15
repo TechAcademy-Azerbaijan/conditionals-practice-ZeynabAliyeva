@@ -9,10 +9,10 @@ prompt.get('input', function (err, result) {
     let x = parseInt(n[0]);
     let a = parseInt(n[1]);
     let b = parseInt(n[2]);
-        if(x<a && x>b){
-            console.log("OUT");
-        }else if(x>a && x<b){
-         console.log("IN");
-        }
+    if(x < a || x > b){
+        console.log("OUT");
+    }else if(x > a || x < b){
+        console.log("IN");
+    }
     
 });
