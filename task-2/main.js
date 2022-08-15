@@ -11,7 +11,7 @@ prompt.get('input', function (err, result) {
     let b = parseInt(n[2]);
         if(x<a && x>b){
             console.log("OUT");
-        }else if(x<a && x<b){
+        }else if(x>a && x<b){
          console.log("IN");
         }
     
